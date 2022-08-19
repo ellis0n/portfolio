@@ -1,11 +1,11 @@
 import React from "react";
 import "../App.css";
-import globe from "./conditionerglobe-1.png";
+import GlobeUrl from "./conditionerglobe-1.png";
 
 const Globe = () => {
   return (
     <div className="globe">
-      <img src={globe} alt="Geometric globe shape" />
+      <img src={GlobeUrl} alt="Geometric globe shape" />
     </div>
   );
 };

@@ -1,11 +1,14 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import Code from "./Code";
+import Header from "./Header";
+import Globe from "./Globe";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
     <div>
-      <h1>I'm Glen</h1>
+      <Header />
+      <Globe />
+      <Footer />
     </div>
   );
 };

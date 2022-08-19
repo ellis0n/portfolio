@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="splash">
         <img
-          src="./poster51.png"
+          src={footer}
           alt="Road with sign reading 'Low
         Point 3'"
         />
