@@ -26,6 +26,11 @@ html {
   justify-content: center;
 }
 
+.taskr,
+.steakflipper {
+  width: 40%;
+}
+
 /* Component - Navbar */
 .li {
   color: red;

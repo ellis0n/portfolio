@@ -7,8 +7,12 @@ const Textbox = ({ intro, text, text2, text3, text4, list, list2, list3 }) => {
       <h2>{text}</h2>
       <p>{text2}</p>
       <ol>
-        {list.map((listed) => {
-          return <li>{listed}</li>;
+        {list.map((listed, index) => {
+          return (
+            <div key={index}>
+              <li>{listed}</li>
+            </div>
+          );
         })}
       </ol>
       <p>{text3}</p>

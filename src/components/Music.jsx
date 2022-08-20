@@ -7,6 +7,7 @@ const Music = () => {
     <div>
       <Header />
       <Navbar />
+      <h1>Under construction</h1>
     </div>
   );
 };

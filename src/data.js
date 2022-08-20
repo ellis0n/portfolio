@@ -1,3 +1,6 @@
+import taskr from "./Images/Taskr.gif";
+import steakflipper from "./Images/steakflipper.gif";
+
 export const menuItems = [
   {
     title: "Bio",
@@ -9,15 +12,15 @@ export const menuItems = [
     submenu: [
       {
         title: "Conditioner",
-        url: "/work#conditioner",
+        url: "/Conditioner",
       },
       {
         title: "Steakflipper",
-        url: "/work#steakflipper",
+        url: "/work",
       },
       {
         title: "Taskr",
-        url: "/taskr",
+        url: "/work#taskr",
       },
     ],
   },
@@ -42,7 +45,7 @@ export const menuItems = [
 ];
 
 export const bio = {
-  intro: "I'm Glen May",
+  intro: "I'm Glen,",
   text: "a software developer.",
   text2: "my current stack:",
   list: ["javascript", "react", "css", "html", "python"],
@@ -74,3 +77,37 @@ export const bio = {
     },
   ],
 };
+
+export const showcases = [
+  {
+    id: "steakflipper",
+    sub: "A simple countdown timer app for cooking steaks evenly",
+    text: "This is my first project made using React. It asks the user to pick their preferred 'rarity' and lets them know when they should flip their steaks based on that input.",
+    alt: "A countdown app in action",
+    img: steakflipper,
+    bgColor: "white",
+    color: "black",
+  },
+
+  {
+    id: "taskr",
+    sub: "A classic to-do application",
+    text: "This is a basic to-do application. The 'Hello world!' of vanilla javascript projects.",
+    alt: "A to-do app in action",
+    img: taskr,
+    bgColor: "black",
+    color: "white",
+  },
+];
+
+export const bandcamps = [
+  {
+    border: "0",
+    width: "400px",
+    height: "120px",
+    src: "https://bandcamp.com/EmbeddedPlayer/album=2608923616/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/",
+    href: "https://ccconditionerrr.bandcamp.com/album/conditioner",
+    title: "CONDITIONER",
+    artist: "CONDITIONER",
+  },
+];

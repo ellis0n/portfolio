@@ -1,0 +1,49 @@
+.showcase {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  justify-content: center;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+}
+
+.showcase h1 {
+  font-weight: 100;
+  font-style: italic;
+  padding: 10px 10px;
+  margin: 2em 24% 0%;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.showcase h2 {
+  font-weight: 100;
+  font-style: italic;
+  padding: 10px 10px;
+  margin: 0.1em 24% 1em;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.showcase p {
+  font-weight: 100;
+  font-style: italic;
+  padding: 10px 10px;
+  margin: 1em 16% 6em;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.showcase img {
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 4px;
+  max-width: 40%;
+}
