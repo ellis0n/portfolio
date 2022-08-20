@@ -1,5 +1,4 @@
 import React from "react";
-// import "../App.css";
 import telescope from "./telescope.png";
 
 const Header = ({ props }) => {
@@ -12,7 +11,6 @@ const Header = ({ props }) => {
       />
 
       <h1>CONDITIONER</h1>
-      <h2>rock</h2>
     </div>
   );
 };

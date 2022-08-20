@@ -5,11 +5,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <div className="nav-Area">
-        <Link to="/">
-          <h1>superior rubber company, ltd. </h1>
-        </Link>
-      </div>
+      <Link to="/">
+        <h1 className="heading">superior rubber co.</h1>
+      </Link>
     </header>
   );
 };

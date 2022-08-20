@@ -1,0 +1,55 @@
+.textbox h1 {
+  font-weight: 100;
+  font-style: italic;
+  padding: 10px 10px;
+  margin: 2rem 24% 0%;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.textbox h2 {
+  font-weight: 100;
+  font-style: italic;
+  padding: 10px 10px;
+  margin: 0.2rem 24% 0%;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.textbox p {
+  font-weight: 100;
+  font-style: italic;
+  padding: 10px 10px;
+  margin: 2rem 24% 0%;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.textbox ol {
+  color: black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin: 0rem 24%;
+}
+.textbox li {
+  padding: 1em;
+}
+
+.textbox li:hover {
+  background-color: rgba(0, 0, 0, 0.566);
+  color: white;
+}
+
+.textbox a {
+}

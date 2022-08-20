@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Navbar from "./Navbar";
-import horseshoe from "../components/goodluck.png";
+import horseshoe from "../Images/goodluck.png";
 
 const Landing = () => {
   return (

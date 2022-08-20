@@ -6,7 +6,7 @@ import "./conditioner.css";
 
 const Conditioner = () => {
   return (
-    <div>
+    <div className="conditionerApp">
       <Header />
       <Globe />
       <Footer />

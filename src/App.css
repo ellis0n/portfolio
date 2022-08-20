@@ -15,9 +15,10 @@ html {
 }
 
 .horseshoe {
-  width: 60%;
-  height: 20%;
-  filter: opacity(11);
+  max-width: 20rem;
+  padding-top: 10vh;
+  overflow: scroll;
+  position: fixed;
 }
 
 .landingWrapper {

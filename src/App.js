@@ -5,6 +5,7 @@ import Bio from "./components/Bio";
 import Landing from "./components/Landing";
 import Work from "./components/Work";
 import Design from "./components/Design";
+import Conditioner from "./components/Conditioner/Conditioner";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/work" element={<Work />}></Route>
         <Route path="/design" element={<Design />}></Route>
         <Route path="/music" element={<Music></Music>}></Route>
+        <Route path="/conditioner" element={<Conditioner />}></Route>
       </Routes>
     </div>
   );
