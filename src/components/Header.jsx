@@ -1,18 +1,16 @@
 import React from "react";
-import "../App.css";
-import telescope from "./telescope.png";
+import "../Styles/header.css";
+import { Link } from "react-router-dom";
 
-const Header = ({ props }) => {
+const Header = () => {
   return (
-    <div className="header">
-      <img
-        className="telescope"
-        src={telescope}
-        alt="Two disembodied hands holding a telescope"
-      />
-
-      <h1>GLEN MAY</h1>
-    </div>
+    <header>
+      <div className="nav-Area">
+        <Link to="/">
+          <h1>superior rubber company, ltd. </h1>
+        </Link>
+      </div>
+    </header>
   );
 };
 

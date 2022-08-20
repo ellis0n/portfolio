@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import GlobeUrl from "./conditionerglobe-1.png";
 
 const Globe = () => {

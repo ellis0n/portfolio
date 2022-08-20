@@ -1,14 +1,14 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import Footer from "./Footer";
+import Navbar from ".//Navbar";
+import Header from "./Header";
+import Textbox from "./Textbox"
+
 const Bio = () => {
   return (
     <div>
-      <Sidebar />
-      <div className="wra">
-        <p>Hi, I'm Glen. I was born</p>
-      </div>
-      <Footer></Footer>
+      <Header></Header>
+      <Navbar />
+      <Textbox text="gleneglnekfnf"/>
     </div>
   );
 };

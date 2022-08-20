@@ -1,0 +1,30 @@
+a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  padding: 8px 8px;
+}
+
+a h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: auto 20px;
+}
+
+a li {
+  font-size: 1em;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@keyframes li {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}

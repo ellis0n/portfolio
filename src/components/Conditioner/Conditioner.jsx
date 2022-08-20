@@ -2,8 +2,9 @@ import React from "react";
 import Header from "./Header";
 import Globe from "./Globe";
 import Footer from "./Footer";
+import "./conditioner.css";
 
-const Home = () => {
+const Conditioner = () => {
   return (
     <div>
       <Header />
@@ -13,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Conditioner;
