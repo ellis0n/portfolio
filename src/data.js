@@ -1,5 +1,11 @@
 import taskr from "./Images/Taskr.gif";
 import steakflipper from "./Images/steakflipper.gif";
+import botfly from "./Images/botflyfinal.png";
+import yeegrlz from "./Images/yeegrlzposterfinal2.png";
+import tibbs from "./Images/tibbs.png";
+import shed from "./Images/shedisland.jpeg";
+import scott from "./Images/scott.png";
+import wax from "./Images/wax.png";
 
 export const menuItems = [
   {
@@ -38,7 +44,7 @@ export const menuItems = [
       },
       {
         title: "Video",
-        url: "/video",
+        url: "/videos",
       },
     ],
   },
@@ -111,3 +117,6 @@ export const bandcamps = [
     artist: "CONDITIONER",
   },
 ];
+
+//IMAGE ARRAY
+export const images = [botfly, yeegrlz, shed, tibbs, scott, wax];

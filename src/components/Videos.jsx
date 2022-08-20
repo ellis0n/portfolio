@@ -1,16 +1,14 @@
 import React from "react";
 import Header from "./Header";
-import Lightbox from "./Lightbox";
 import Navbar from "./Navbar";
-
-const Design = () => {
+const Videos = () => {
   return (
     <div>
       <Header />
       <Navbar />
-      <Lightbox />
+      <h2>Under construction</h2>
     </div>
   );
 };
 
-export default Design;
+export default Videos;
