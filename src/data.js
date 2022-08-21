@@ -61,7 +61,7 @@ export const bio = {
     { id: "parent", url: "/bio" },
     { id: "musician", url: "https://ccconditionerrr.bandcamp.com/" },
     { id: "volunteer", url: "http://lawnyavawnya.com/" },
-    { id: "designer", url: "/bio" },
+    { id: "designer", url: "/design" },
   ],
   text4: "elsewhere online:",
   list3: [

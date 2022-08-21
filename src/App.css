@@ -2,7 +2,7 @@
 
 /* Page layout and wrappers */
 html {
-  background-color: rgba(249, 253, 250, 0.939);
+  background-color: #f8f9fa;
   font-family: "Roboto", sans-serif;
 }
 
@@ -29,4 +29,29 @@ html {
 .taskr,
 .steakflipper {
   width: 40%;
+}
+
+footer {
+  width: 100%;
+  background-color: #212529;
+  color: beige;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact h1 {
+  background-color: #212529;
+  color: #f8f9fa;
+  padding: 20px;
+  margin: 20px;
+  font-size: 1em;
+  border-radius: 20px;
 }

@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import Design from "./components/Design";
 import Videos from "./components/Videos";
 import Conditioner from "./components/Conditioner/Conditioner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/conditioner" element={<Conditioner />}></Route>
         <Route path="/videos" element={<Videos></Videos>}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

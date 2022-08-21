@@ -10,7 +10,7 @@ li {
 }
 
 a {
-  color: black;
+  color: #212529;
   text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a h1 {
 ul {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #212529;
   margin-top: 2px;
   padding: 1em;
 }
@@ -53,30 +53,33 @@ ul {
 .menu-items > a,
 .menu-items button {
   padding: 1rem 1rem;
-  background-color: black;
+  background-color: #212529;
 }
 
 .menu-items a:hover,
 .menu-items button:hover {
-  background-color: #f2f2f2fb;
-  color: black;
+  background-color: #edede9;
+  color: #212529;
   font-style: italic;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .dropdown {
   position: absolute;
   right: 100%;
   left: 0%;
-  color: white;
+  color: #edede9;
   z-index: 999;
   min-width: 100%;
   padding-bottom: auto;
   list-style: none;
   background-color: rgba(255, 255, 255, 0.99);
-  border-radius: rem;
+  border-radius: 1rem;
   display: none;
-  border: 4px solid black;
-  border-radius: 8px;
+  border-bottom: 2px dashed #212529;
+  border-radius: 16px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   text-align: center;
 }
 

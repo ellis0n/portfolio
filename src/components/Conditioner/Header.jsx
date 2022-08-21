@@ -1,7 +1,7 @@
 import React from "react";
 import telescope from "./telescope.png";
 
-const Header = ({ props }) => {
+const Header = () => {
   return (
     <div className="header">
       <img
@@ -9,7 +9,6 @@ const Header = ({ props }) => {
         src={telescope}
         alt="Two disembodied hands holding a telescope"
       />
-
       <h1>CONDITIONER</h1>
     </div>
   );

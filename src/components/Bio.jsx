@@ -3,6 +3,8 @@ import Navbar from ".//Navbar";
 import Header from "./Header";
 import Textbox from "./Textbox";
 import { bio } from "../data";
+import Footer from "./Footer";
+import Contact from "./Contact";
 
 const Bio = () => {
   return (
@@ -19,6 +21,8 @@ const Bio = () => {
         text4={bio.text4}
         list3={bio.list3}
       />
+      <Contact />
+      <Footer />
     </div>
   );
 };
