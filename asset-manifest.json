@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60879102.css",
+    "main.js": "/static/js/main.88d3206a.js",
+    "static/media/Taskr.gif": "/static/media/Taskr.78f07fa3eb93bf536d0e.gif",
+    "static/media/steakflipper.gif": "/static/media/steakflipper.e5012f17fbde15312987.gif",
+    "static/media/goodluck.png": "/static/media/goodluck.ea659cdc0acb5e8f13e7.png",
+    "static/media/scott.png": "/static/media/scott.185b5f51416aeffcf0f3.png",
+    "static/media/yeegrlzposterfinal2.png": "/static/media/yeegrlzposterfinal2.e8ca7973fcb42ae3a573.png",
+    "static/media/botflyfinal.png": "/static/media/botflyfinal.3d9488144403c6fd522c.png",
+    "static/media/poster51.png": "/static/media/poster51.48f8a3675bc463a58a19.png",
+    "static/media/tibbs.png": "/static/media/tibbs.3684ee9af7d43dcb98b2.png",
+    "static/media/wax.png": "/static/media/wax.4b99d029ca98637be92b.png",
+    "static/media/conditionerglobe-1.png": "/static/media/conditionerglobe-1.a425d8d9c797980cc2dd.png",
+    "static/media/telescope.png": "/static/media/telescope.f3f479e1a59c836a1548.png",
+    "static/media/shedisland.jpeg": "/static/media/shedisland.959c68b09944e44213c7.jpeg",
+    "index.html": "/index.html",
+    "main.60879102.css.map": "/static/css/main.60879102.css.map",
+    "main.88d3206a.js.map": "/static/js/main.88d3206a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60879102.css",
+    "static/js/main.88d3206a.js"
+  ]
+}
